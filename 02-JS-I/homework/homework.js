@@ -203,7 +203,6 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   return euro * 1.2;
-  
 }
 
 
@@ -216,7 +215,6 @@ function esVocal(letra){
   if (letra.length === 1 && ( letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u" ) ){
     return "Es vocal";
   }
-
   return "Dato incorrecto";
 }
 
